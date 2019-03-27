@@ -13,11 +13,11 @@ analia = Comun 10000 "analia"
 juan = Jefe 15000 3 "juan"
 
 and' :: Bool -> Bool -> Bool
-and' unVal otroVal | unVal = otroVal
+and' unVal1 otroVal | unVal1 = otroVal
                    | otherwise = False
 
 and'' :: Bool -> Bool -> Bool
-and'' True val = val
+and'' True val2 = val2
 and'' _ _ = False
 
 or' :: Bool -> Bool -> Bool
